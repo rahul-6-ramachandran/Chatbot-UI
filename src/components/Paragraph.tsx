@@ -19,7 +19,7 @@ const TypingParagraph = ({ text, speed = 40 }: TypingParagraphProps) => {
     return () => clearInterval(interval);
   }, [text, speed]);
 
-  return <p className="mt-4 text-lg text-gray-200">{displayedText}</p>;
+  return <p className="mt-4 text-lg md:text-gray-200">{displayedText}</p>;
 };
 
 export default TypingParagraph;

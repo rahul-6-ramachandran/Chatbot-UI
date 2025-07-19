@@ -34,7 +34,7 @@ export default function LandingPage() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
-          className="text-5xl md:text-6xl z-20 font-extrabold tracking-tight text-gray-200"
+          className="text-5xl md:text-6xl z-20 font-extrabold tracking-tight  md:text-gray-200"
         >
           Talk to AI. Get Things Done.
         </motion.h1>
@@ -43,7 +43,7 @@ export default function LandingPage() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4 }}
-          className="mt-4 text-lg text-gray-200"
+          className="mt-4 text-lg md:text-gray-200"
         >
           <TypingParagraph text="Your intelligent assistant for code, writing, tasks, and more — all in one place."   />
         </motion.p>
@@ -53,7 +53,7 @@ export default function LandingPage() {
           whileTap={{ scale: 0.95 }}
           transition={{ delay: 0.2 }}
           onClick={() => navigate("/dashboard")}
-          className="mt-8 px-8 py-3 bg-white text-black text-lg rounded-2xl shadow-md hover:bg-gray-800 hover:text-gray-200 transition"
+          className="mt-8 px-8 py-3 md:bg-white bg-black text-white md:text-black text-lg rounded-2xl shadow-md md:hover:bg-gray-800 hover:text-gray-200 transition"
         >
           Get Started
         </motion.button>
