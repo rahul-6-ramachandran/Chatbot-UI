@@ -69,7 +69,7 @@ export default function ChatWindow() {
       </div>
 
       <motion.div
-      className="p-4 m-10 rounded-2xl border-t sticky bottom-4 border-gray-300 dark:border-gray-700 bg-white dark:bg-[#121212]"
+      className="p-4 md:m-10 m-2 rounded-2xl border-t sticky bottom-4 border-gray-300 dark:border-gray-700 bg-white dark:bg-[#121212]"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}

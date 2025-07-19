@@ -9,7 +9,7 @@ export default function ChatSidebar() {
     ];
   
     return (
-        <div className="w-64 h-screen overflow-y-auto scroll-thin bg-gray-100 dark:bg-[#121212] border-r border-gray-300 dark:border-gray-700 p-4">
+        <div className="md:w-64  h-screen  overflow-y-auto scroll-thin bg-gray-100 dark:bg-[#121212] border-r border-gray-300 dark:border-gray-700 p-4">
         <h2 className="text-lg font-semibold mb-4">Chats</h2>
         <ul className="space-y-2">
           {chatList.map((chat, idx) => (
