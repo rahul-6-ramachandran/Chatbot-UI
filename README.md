@@ -1,69 +1,59 @@
-# React + TypeScript + Vite
+# 1 . Ai ChatBot UI 
+This project is a sleek and responsive web app featuring:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+⚡ Landing Page – A minimal, modern entry point to the app.
 
-Currently, two official plugins are available:
+📊 Dashboard – Insightful visualizations and metrics with a clean UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+💬 AI Chatbot – A functional, animated chat interface with typing effects and a custom sidebar chat history.
 
-## Expanding the ESLint configuration
+Styled with Tailwind CSS and enhanced using Framer Motion and modern UX patterns. Includes dark mode support and custom scrollbars for a polished experience.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Tech Stack
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+**Client:** React, Tailwind CSS, Framer Motion
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+
+
+## Features
+
+- Landing Page
+- User dashboard with insights and matrices
+- ChatBot with realtime response setup (inspired from Chatgpt)
+- Simple,attractive, Responsive and powerful UI
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone (https://github.com/rahul-6-ramachandran/Chatbot-UI.git)
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Install dependencies
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+  npm install
 ```
+
+Start the server
+
+```bash
+  npm run dev
+```
+
+## Screenshots
+
+####Landing Page
+<img width="1920" height="1080" alt="Screenshot 2025-07-19 212714" src="https://github.com/user-attachments/assets/752a3e30-f6ea-4ddc-8090-4bd6c3d0464c" />
+
+####Dashboard
+<img width="1920" height="1080" alt="Screenshot 2025-07-19 212728" src="https://github.com/user-attachments/assets/5df606e7-922e-482a-9c4c-b103a5b1f2f3" />
+<img width="1920" height="1080" alt="Screenshot 2025-07-19 213028" src="https://github.com/user-attachments/assets/a8e82d46-c4c2-421e-ad16-0003471908f3" />
+
+
+####Chat
+<img width="1920" height="1080" alt="Screenshot 2025-07-19 212759" src="https://github.com/user-attachments/assets/767487d2-69d9-4a1f-9c91-179438e6edd1" />
+
+
